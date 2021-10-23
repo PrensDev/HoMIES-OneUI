@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin | Hospital Management System</title>
+    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="../../plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="../../plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+<body class="layout-top-nav control-sidebar-slide-open layout-navbar-fixed">
+    <div class="wrapper">
+
+        <!-- 
+        | =================================================================================
+        |                               TOP NAVIGATION BAR
+        | =================================================================================
+        -->
+        <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+            <div class="container">
+        
+                <!-- Brand -->
+                <a href="#" class="navbar-brand order-0">
+                    <img 
+                        src="../../dist/img/AdminLTELogo.png" 
+                        alt="HoMIES" 
+                        class="brand-image img-circle" 
+                        style="opacity: .8"
+                    >
+                    <span class="brand-text font-weight-light">HoMIES</span>
+                </a>
+        
+                <!-- Navbar Toggler -->
+                <button 
+                    class="navbar-toggler order-1 border-0" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarCollapse"
+                >
+                    <i class="fas fa-bars"></i>
+                </button>
+        
+                <!-- Left Navbar Links -->
+                <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+                    <ul class="navbar-nav">
+        
+                        <!-- Medical Services -->
+                        <li class="nav-item dropdown">
+                            <a 
+                                id="dropdownSubMenu1" 
+                                href="#" 
+                                data-toggle="dropdown"
+                                class="nav-link dropdown-toggle"
+                            >Medical Services</a>
+        
+                            <ul class="dropdown-menu border-0 shadow">
+                                <li><a href="#" class="dropdown-item">Find a Doctor</a></li>
+                            </ul>
+                        </li>
+        
+                        <!-- Patient & Visitor -->
+                        <li class="nav-item dropdown">
+                            <a 
+                                id="dropdownSubMenu1" 
+                                href="#" 
+                                data-toggle="dropdown" 
+                                aria-haspopup="true" 
+                                aria-expanded="false" 
+                                class="nav-link dropdown-toggle"
+                            >Patients & Visitor</a>
+                            <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
+                            <li><a href="#" class="dropdown-item">Some action </a></li>
+                            <li><a href="#" class="dropdown-item">Some other action</a></li>
+        
+                            <li class="dropdown-divider"></li>
+        
+                            <!-- Level two dropdown-->
+                            <li class="dropdown-submenu dropdown-hover">
+                                <a id="dropdownSubMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Hover for action</a>
+                                <ul aria-labelledby="dropdownSubMenu2" class="dropdown-menu border-0 shadow">
+                                <li>
+                                    <a tabindex="-1" href="#" class="dropdown-item">level 2</a>
+                                </li>
+        
+                                <!-- Level three dropdown-->
+                                <li class="dropdown-submenu">
+                                    <a id="dropdownSubMenu3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">level 2</a>
+                                    <ul aria-labelledby="dropdownSubMenu3" class="dropdown-menu border-0 shadow">
+                                    <li><a href="#" class="dropdown-item">3rd level</a></li>
+                                    <li><a href="#" class="dropdown-item">3rd level</a></li>
+                                    </ul>
+                                </li>
+                                <!-- End Level three -->
+        
+                                <li><a href="#" class="dropdown-item">level 2</a></li>
+                                <li><a href="#" class="dropdown-item">level 2</a></li>
+                                </ul>
+                            </li>
+                            <!-- End Level two -->
+                        </ul>
+                        </li>
+        
+                        <!-- Careers -->
+                        <li class="nav-item">
+                            <a href="#careers" class="nav-link">Careers</a>
+                        </li>
+                        
+                        <!-- About Us -->
+                        <li class="nav-item dropdown">
+                        <div
+                            role="button"
+                            data-toggle="dropdown"
+                            class="nav-link dropdown-toggle"
+                        >About Us</div>
+                        <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
+                            <li><a href="#" class="dropdown-item">Vision & Mission</a></li>
+                            <li><a href="#" class="dropdown-item">History</a></li>
+                            <li class="dropdown-divider"></li>
+                            <li><a href="#" class="dropdown-item">Data Privacy</a></li>
+                            <li><a href="#" class="dropdown-item">Terms and Conditions</a></li>
+                            <li><a href="#" class="dropdown-item">FAQ</a></li>
+                        </ul>
+                    </li>
+        
+                    </ul>
+                </div>
+        
+                <!-- Right Navbar Links -->
+                <div class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+                    <a href="{{ BASE_URL_WEB }}login" class="btn btn-primary text-nowrap">
+                        <span>Login</span>
+                        <i class="fas fa-sign-in-alt ml-1"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 
+        | =================================================================================
+        |                                   CONTENT / BODY
+        | =================================================================================
+        -->
+        <div class="content-wrapper pb-5">
+            
+            <!-- Content Header -->
+            <div class="content-header">
+                <div class="container">
+                    <h1 class="m-0">Page Title</h1>
+                    <div class="text-secondary">Page Subtitle</div>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="content">
+
+                <!-- 
+                | =========================================================================
+                | 
+                | 
+                |                               CONTENTS ARE HERE
+                | 
+                | 
+                | =========================================================================
+                -->
+
+            </div>
+        </div>
+
+        <!-- 
+        | =================================================================================
+        |                                    FOOTERS
+        | =================================================================================
+        -->
+        
+        <!-- Main Footer -->
+        <div class="main-footer bg-dark text-white pb-5">
+            <div class="container py-3">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="container my-3">
+                            <h5>About Us</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed magni natus vel inventore earum mollitia iure optio cum ratione libero.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="container my-3">
+                            <h5>Quick Links</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Careers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Patients & Visitors</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="container my-3">
+                            <h5>Contact Us</h5>
+                            <div class="form-group">
+                                <label for="email">Sent your email here</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Small Footer -->
+        <footer class="main-footer navbar-dark">
+            <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between align-items-center">
+                
+                <!-- Default to the left -->
+                <strong>Copyright &copy; 2014-2021 {{BRAND_NAME}}.</strong> 
+                
+                <!-- To the right -->
+                <div>All rights reserved</div>
+            </div>
+            
+        </footer>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="../../plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../dist/js/demo.js"></script>
+</body>
+</html>
