@@ -1,0 +1,1 @@
+$('#logoutBtn').on('click', () => location.assign('../../public/index.html'))
