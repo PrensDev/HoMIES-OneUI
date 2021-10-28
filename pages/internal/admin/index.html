@@ -19,31 +19,40 @@
         |                               TOP NAVIGATION BAR
         | =================================================================================
         -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <nav class="main-header navbar navbar-expand-md navbar-white navbar-light">
+    
+
+            <!-- Left navbar links togglers (for responsive) -->
+            <ul class="navbar-nav navbar-no-expand">
+        
+                <!-- Sidebar Toggler -->
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </li>
+        
+                <!-- Tobpar toggler -->
+                <li class="nav-item">
+                    <button class="nav-link navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </li>
+            </ul>
             
-            <!-- Left navbar links toggler (for responsive) -->
-            <button class="nav-link navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            
+        
             <!-- Left navbar links -->
             <div class="collapse navbar-collapse order-3" id="navbarCollapse">
                 <ul class="navbar-nav">
-
-                    <!-- Sidebar Toggler -->
-                    <li class="nav-item">
-                        <a class="nav-link" data-widget="pushmenu" href="#" role="button">
-                            <i class="fas fa-bars"></i>
-                        </a>
-                    </li>
-
+        
                     <!-- Home -->
                     <li class="nav-item">
                         <a class="nav-link text-primary" href="./index.html" role="button">
                             <i class="fas fa-home"></i>
+                            <span class="d-inline-block d-md-none ml-1 ml-md-0">Home</span>
                         </a>
                     </li>
-
+        
                     <!-- Hospital Core -->
                     <li class="nav-item dropdown">
                         <a 
@@ -61,7 +70,7 @@
                             <li><a href="./submodule.html" class="dropdown-item">Visitors Management</a></li>
                         </ul>
                     </li>
-
+        
                     <!-- Human Resource -->
                     <li class="nav-item dropdown">
                         <a 
@@ -77,7 +86,7 @@
                             <li><a href="./submodule.html" class="dropdown-item">Performance Management</a></li>
                         </ul>
                     </li>
-
+        
                     <!-- Finance -->
                     <li class="nav-item dropdown">
                         <a 
@@ -92,7 +101,7 @@
                             <li><a href="./submodule.html" class="dropdown-item">Collection/Disbursement</a></li>
                         </ul>
                     </li>
-
+        
                     <!-- Logistics -->
                     <li class="nav-item dropdown">
                         <a 
@@ -102,13 +111,13 @@
                         >Logistics</a>
                         
                         <ul class="dropdown-menu dropdown-menu-left">
-                            <li><a href="#" class="dropdown-item">Procurement Management</a></li>
-                            <li><a href="#" class="dropdown-item">Warehousing Management</a></li>
-                            <li><a href="#" class="dropdown-item">Asset Management</a></li>
-                            <li><a href="#" class="dropdown-item">Project Management</a></li>
+                            <li><a href="./submodule.html" class="dropdown-item">Procurement Management</a></li>
+                            <li><a href="./submodule.html" class="dropdown-item">Warehousing Management</a></li>
+                            <li><a href="./submodule.html" class="dropdown-item">Asset Management</a></li>
+                            <li><a href="./submodule.html" class="dropdown-item">Project Management</a></li>
                         </ul>
                     </li>
-
+        
                     <!-- System Administration -->
                     <li class="nav-item">
                         <a class="nav-link" href="./sysadmin.html" role="button">
@@ -118,6 +127,7 @@
                 </ul>
             </div>  
             
+        
             <!-- Right navbar links -->
             <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
             
@@ -352,6 +362,7 @@
     <!-- AdminLTE for demo purposes -->
     <script src="../../../dist/js/demo.js"></script>
 
+    
     <!-- Custom Scripts (Do not copy. For demo purposes only) -->
     <script src="../../../dist/js/functions.js"></script>
 </body>

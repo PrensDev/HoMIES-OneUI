@@ -1,1 +1,4 @@
-$('#logoutBtn').on('click', () => location.assign('../../public/index.html'))
+/**
+ * FOR LOGOUT DEMO
+ */
+$('#logoutBtn').on('click', () => location.assign('../../public/home.html'));
